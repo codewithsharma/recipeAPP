@@ -1,0 +1,97 @@
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+
+
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.menuImg {
+  width: 250px;
+  border-radius: 5px;
+  height: 250px;
+}
+
+.menu {
+  position: relative;
+  min-width: 250px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.difficultlyLevel {
+  position: absolute;
+  right: 10px;
+  bottom: 70px;
+  padding: 5px 8px;
+  border-radius: 16px;
+
+}
+
+.menuName {
+  font-size: 16px;
+
+}
+
+.easy {
+  background-color: green;
+  color: white;
+}
+
+.medium {
+  background-color: orange;
+  color: white;
+}
+
+.hard {
+  background-color: red;
+  color: white;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  padding: 5px;
+
+}
+
+.cuisine {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #e6c34e;
+  color: white;
+  border-radius: 16px;
+  padding: 5px;
+  padding: 5px 8px;
+
+}
+
+.addToCart {
+  padding: 8px;
+  width: 100%;
+  border: none;
+  background-color: #3b34f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px 0;
+
+}
